@@ -1,0 +1,8 @@
+# 01/02/2024
+# Day - 001
+
+*** Order ***
+0. print-function.py
+1. input-function.py
+2. auditorium.py
+3. pj-band-generator.py

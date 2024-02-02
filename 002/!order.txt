@@ -1,0 +1,9 @@
+# 02/02/2024
+# Day - 002
+
+*** Order ***
+0. primitive-data-types.py
+1. math-ops.py
+2. numbers-and-f-strings.py
+3. auditorium.py
+4. pj-tip-calculator.py
