@@ -2,7 +2,7 @@
 # Day - 001
 
 *** Order ***
-0. print-function.py
-1. input-function.py
+0. print_function.py
+1. input_function.py
 2. auditorium.py
-3. pj-band-generator.py
+3. PJ_band_generator.py

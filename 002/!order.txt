@@ -2,8 +2,8 @@
 # Day - 002
 
 *** Order ***
-0. primitive-data-types.py
-1. math-ops.py
-2. numbers-and-f-strings.py
-3. auditorium.py
-4. pj-tip-calculator.py
+0. primitive_data_types.py
+1. math_ops.py
+2. numbers_and_f-strings.py
+3. auditorium
+4. PJ_tip_calculator.py

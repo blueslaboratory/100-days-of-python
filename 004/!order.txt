@@ -1,0 +1,8 @@
+# 06/02/2024
+# Day - 004
+
+*** Order ***
+0. random_module.py
+1. lists.py
+2. auditorium
+3. PJ_rock_paper_scissors.py
