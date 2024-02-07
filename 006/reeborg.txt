@@ -1,0 +1,191 @@
+# 07/02/2024
+# Day - 006
+
+
+
+##################################################
+# https://reeborg.ca/reeborg.html
+
+# turn right function
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+# assignment: do a square
+turn_left()
+move()
+turn_right()
+move()
+turn_right()
+move()
+turn_right()
+move()
+turn_left()
+
+
+
+# Reeborgs World Hurdles Challenge 1
+# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+# for version
+for i in range(0, 6):
+    move()
+    jump()
+
+
+
+# Reeborgs World Hurdles Challenge 2
+# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%202&url=worlds%2Ftutorial_en%2Fhurdle2.json
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+number_of_hurdles = 6
+while number_of_hurdles > 0 and not at_goal
+# while at_goal() != True:
+    move()
+    jump()
+    number_of_hurdles -= 
+
+
+
+# Reeborgs World Hurdles Challenge 3
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+
+
+
+# Reeborgs World Hurdles Challenge 4
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    # up
+    turn_left()
+    move()
+    turn_right()
+    jump = 0
+    while wall_in_front():
+        turn_left()
+        move()
+        turn_right()
+        jump += 1
+    move()
+    # down
+    turn_right()
+    while jump >= 0:
+        move()
+        jump -= 1
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+
+
+
+# My 2nd version
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    jump = 0
+    # up
+    while wall_on_right():
+        move()
+        jump += 1
+    turn_right()
+    move()
+    turn_right()
+    # down
+    while jump > 0:
+        move()
+        jump -= 1
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+
+
+
+# Cleaner version
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+def jump():
+    turn_left()
+    # up
+    while wall_on_right():
+        move()
+    turn_right()
+    move()
+    turn_right()
+    # down
+    while not wall_in_front():
+        move()
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()

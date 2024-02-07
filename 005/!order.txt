@@ -2,6 +2,6 @@
 # Day - 005
 
 *** Order ***
-0. loops.py
+0. for_loop.py
 1. auditorium
 2. PJ_password_generator.py
