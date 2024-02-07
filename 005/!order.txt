@@ -1,0 +1,7 @@
+# 07/02/2024
+# Day - 005
+
+*** Order ***
+0. loops.py
+1. auditorium
+2. PJ_password_generator.py
