@@ -1,6 +1,11 @@
 # debugging shit sheet
 
-import random
+letters_guessed = ['a', 'b', 'c']
 
-random_integer = random.randint(1,10)
-print(random_integer)
+guess = input("Guess a letter: ").lower()
+
+if guess in letters_guessed:
+    print(f"\nLetter '{guess}' has already been guessed")
+else:
+    letters_guessed.append(guess)
+    print(letters_guessed)

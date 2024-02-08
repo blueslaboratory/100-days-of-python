@@ -1,5 +1,5 @@
-# 07/02/2024
-# Day - 005
+# 0X/02/2024
+# Day - 00X
 
 
 
@@ -8,4 +8,4 @@
 print("\n\n*** Auditorium ***")
 
 
-# Day 5 - Lesson 16 - 
+# Day X - Lesson XX - 

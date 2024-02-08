@@ -3,6 +3,6 @@
 
 *** Order ***
 0. functions.py
-1. reeborg.py
-2. PJ_reeborg_maze.py
-3. reeborg
+1. reeborg.txt
+2. reeborg folder
+3. PJ_reeborg_maze.py
