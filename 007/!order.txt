@@ -9,5 +9,4 @@
 4. hangman4.py
 5. hangman5.py
 
-6. importing1.py
-7. importing2.py
+6. importing 
