@@ -1,0 +1,8 @@
+# 0X/02/2024
+# Day - 00X
+
+*** Order ***
+0. dictionaries.py
+1. nesting.py
+2. auditorium
+3. auction
