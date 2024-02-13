@@ -6,3 +6,4 @@
 ##################################################
 # DAY 5 PROJECT: 
 
+print("\n*** Welcome to the PyPassword Generator! ***")
