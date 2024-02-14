@@ -1,11 +1,11 @@
 # debugging shit sheet
 
-letters_guessed = ['a', 'b', 'c']
+print("\n6. Use a Debugger")
+def mutate(a_list):
+    b_list = []
+    for item in a_list:
+        new_item = item * 2
+        b_list.append(new_item)
+    print(b_list)
 
-guess = input("Guess a letter: ").lower()
-
-if guess in letters_guessed:
-    print(f"\nLetter '{guess}' has already been guessed")
-else:
-    letters_guessed.append(guess)
-    print(letters_guessed)
+mutate([1,2,3,5,8,13])
