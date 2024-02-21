@@ -1,0 +1,16 @@
+# 19/02/2024
+# Day - 016
+
+*** Order ***
+
+
+0. Step 1. Install Python
+1. Step 2. Pycharm IDE installation
+2. Step 3. Pycharm charming features
+
+
+Python formatting guides:
+https://peps.python.org/pep-0008/
+
+Pycharm shortcuts:
+https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
