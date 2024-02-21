@@ -21,4 +21,4 @@ methods: functions of the object
 0. another_module.py
 1. turtle.py
 2. pokedex.py
-3. oop_coffee_machine.py
+3. oop_coffee_machine
