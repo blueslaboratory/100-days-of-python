@@ -7,6 +7,7 @@
 0. Step 1. Install Python
 1. Step 2. Pycharm IDE installation
 2. Step 3. Pycharm charming features
+3. PJ_coffee_machine.py
 
 
 Python formatting guides:
