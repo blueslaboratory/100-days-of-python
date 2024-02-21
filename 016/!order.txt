@@ -1,0 +1,24 @@
+# 21/02/2024
+# Day - 016
+
+Procedural Programming: 
+We set up procedures or functions that do particular things.
+
+!OOP:
+1 person runs the restaurant
+Restaurant isn't very complex
+
+OOP: 
+>1 staff runs restaurant
+Allows specialization and complexity
+class: blueprint of the object (PascalCase: e.g. car = CarBlueBlueprint())
+attributes: variables of the object
+methods: functions of the object
+
+
+
+*** Order ***
+0. another_module.py
+1. turtle.py
+2. pokedex.py
+3. oop_coffee_machine.py
