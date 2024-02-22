@@ -19,6 +19,6 @@ methods: functions of the object
 
 *** Order ***
 0. another_module.py
-1. turtle.py
+1. turtles_moving.py
 2. pokedex.py
 3. oop_coffee_machine

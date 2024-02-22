@@ -1,5 +1,7 @@
 # debugging shit sheet
 
+# refactor a variable: F2
+
 print("\n6. Use a Debugger")
 def mutate(a_list):
     b_list = []

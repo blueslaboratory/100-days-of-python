@@ -1,0 +1,14 @@
+# 22/02/2024
+# Day - 018
+
+GUI: Graphical User Interface
+
+
+*** Order ***
+0. turtle_square.py
+1. imports.py
+2. turtle_dashed_line.py
+3. turtle_polygons.py
+4. turtle_random_walk.py
+5. turtle_spirograph.py
+6. turtle_spots
