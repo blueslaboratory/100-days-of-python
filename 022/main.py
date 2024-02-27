@@ -40,7 +40,7 @@ screen.onkey(l_paddle.down, key="s")
 game_is_on = True
 while game_is_on:
     
-    # so that the body moves together and not 1 by 1 with delays:
+    # refresh rate of the moving parts:
     # to make the ball go faster, reduce: time_move_speed
     time.sleep(ball.time_move_speed) 
     screen.update()
