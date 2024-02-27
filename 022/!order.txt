@@ -1,0 +1,8 @@
+# 27/02/2024
+# Day - 022
+
+*** Order ***
+0. main.py
+1. paddle.py
+2. ball.py
+3. scoreboard.py
