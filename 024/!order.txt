@@ -1,0 +1,8 @@
+# 28/02/2024
+# Day - 024
+
+*** Order ***
+0. files.py
+1. oop_snake --> adding the high score functionality
+2. files.py --> absolute file paths vs relative file paths
+3. mail_merge
