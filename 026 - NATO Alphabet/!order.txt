@@ -1,0 +1,11 @@
+# 29/02/2024
+# Day - 026
+
+*** Order ***
+0. list_comprehension.py
+1. auditorium - 28, 29, 30
+2. PJ_USA_game
+3. dict_comprehension.py
+4. auditorium - 31, 32
+5. looping.py
+6. PJ_NATO
