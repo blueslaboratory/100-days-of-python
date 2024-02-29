@@ -16,9 +16,9 @@
 print("\n\n*** Mail Merge ***")
 
 
-DIRECTORY_NAMES = ".\\024\\mail_merge\\input\\names\\invited_names.txt"
-DIRECTORY_STARTING_LETTER = ".\\024\\mail_merge\\input\\letters\\starting_letter.txt"
-DIRECTORY_LETTERS = ".\\024\\mail_merge\\output\\ready\\"
+DIRECTORY_NAMES = ".\\024 - Mail Merge\\mail_merge\\input\\names\\invited_names.txt"
+DIRECTORY_STARTING_LETTER = ".\\024 - Mail Merge\\mail_merge\\input\\letters\\starting_letter.txt"
+DIRECTORY_LETTERS = ".\\024 - Mail Merge\\mail_merge\\output\\ready\\"
 
 names = []
 

@@ -6,7 +6,7 @@
 ##################################################
 print("\n\n*** Files ***")
 
-file = open(".\\024\\my_file.txt")
+file = open(".\\024 - Mail Merge\\my_file.txt")
 
 contents = file.read()
 print(contents)
@@ -21,15 +21,15 @@ print("\nAnother way to open a file:")
 # mode="w" --> writes in the file: deletes previous content; if the file doesn't exist, it creates it
 # mode="a" --> appends in the file: does not delete previous content
 
-with open(".\\024\\my_file_w.txt", mode="w") as file:
+with open(".\\024 - Mail Merge\\my_file_w.txt", mode="w") as file:
     file.write("New Text.")
     # closes automatically
 
-with open(".\\024\\my_file.txt", mode="a") as file:
+with open(".\\024 - Mail Merge\\my_file.txt", mode="a") as file:
     file.write("\nNew Text.")
     # closes automatically
 
-with open(".\\024\\my_file.txt") as file:
+with open(".\\024 - Mail Merge\\my_file.txt") as file:
     contents = file.read()
     print(contents)
     # closes automatically

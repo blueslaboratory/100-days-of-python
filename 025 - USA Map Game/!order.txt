@@ -1,0 +1,9 @@
+# 28/02/2024
+# Day - 025
+
+*** Order ***
+0. read_csv.py
+1. read_csv_pandas.py
+2. squirrels_pandas_1.py
+3. squirrels_pandas_2.py
+4. PJ_USA_game

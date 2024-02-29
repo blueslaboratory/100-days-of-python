@@ -11,7 +11,7 @@ from turtle import Turtle
 
 ALIGNMENT = "center"
 FONT = ("Courier", 14, "normal")
-HIGH_SCORE_DIRECTORY = ".\\024\\oop_snake\\high_score.txt"
+HIGH_SCORE_DIRECTORY = ".\\024 - Mail Merge\\oop_snake\\high_score.txt"
 
 class Scoreboard(Turtle):
     
