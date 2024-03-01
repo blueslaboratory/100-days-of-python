@@ -14,7 +14,7 @@ import pandas as pd
 
 
 
-DIRECTORY_CSV = ".\\025 - USA Map Game\\squirrels_central_park_2018.csv"
+DIRECTORY_CSV = ".\\025 - CSV and Pandas\\squirrels_central_park_2018.csv"
 data = pd.read_csv(DIRECTORY_CSV)
 
 
@@ -53,5 +53,5 @@ data_fur = {
     "Count": [gray, cinnamon, black, nan]
 }
 dataframe = pd.DataFrame(data_fur)
-dataframe.to_csv(".\\025 - USA Map Game\\squirrels_fur.csv")
+dataframe.to_csv(".\\025 - CSV and Pandas\\squirrels_fur.csv")
 print(dataframe)

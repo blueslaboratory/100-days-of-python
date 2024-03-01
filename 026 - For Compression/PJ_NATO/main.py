@@ -12,7 +12,7 @@ print("\n*** Welcome to the NATO SPELLING! ***")
 
 import pandas as pd
 
-DIRECTORY_NATO_CSV = "026 - NATO Alphabet\\PJ_NATO\\nato_phonetic_alphabet.csv"
+DIRECTORY_NATO_CSV = "026 - For Compression\\PJ_NATO\\nato_phonetic_alphabet.csv"
 
 
 

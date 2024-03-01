@@ -10,7 +10,7 @@ print("\n\n*** Weather Data ***")
 import csv
 
 
-DIRECTORY_CSV = ".\\025 - USA Map Game\\weather_data.csv"
+DIRECTORY_CSV = ".\\025 - CSV and Pandas\\weather_data.csv"
 data = []
 
 

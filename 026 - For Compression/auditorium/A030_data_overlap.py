@@ -20,8 +20,8 @@ print("\n\n*** Auditorium ***")
 
 
 
-DIRECTORY_FILE_1 = ".\\026 - NATO Alphabet\\auditorium\\file1.txt"
-DIRECTORY_FILE_2 = ".\\026 - NATO Alphabet\\auditorium\\file2.txt"
+DIRECTORY_FILE_1 = ".\\026 - For Compression\\auditorium\\file1.txt"
+DIRECTORY_FILE_2 = ".\\026 - For Compression\\auditorium\\file2.txt"
 
 
 

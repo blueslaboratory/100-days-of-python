@@ -14,7 +14,7 @@ print("\n\n*** Weather Data ***")
 
 import pandas as pd
 
-DIRECTORY_CSV = ".\\025 - USA Map Game\\weather_data.csv"
+DIRECTORY_CSV = ".\\025 - CSV and Pandas\\weather_data.csv"
 data = pd.read_csv(DIRECTORY_CSV)
 
 
@@ -81,5 +81,5 @@ data_dict = {
     "scores": [76, 56, 65]
 }
 dataframe = pd.DataFrame(data_dict)
-dataframe.to_csv(".\\025 - USA Map Game\\new_data.csv")
+dataframe.to_csv(".\\025 - CSV and Pandas\\new_data.csv")
 print(dataframe)

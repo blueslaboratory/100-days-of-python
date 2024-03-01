@@ -21,9 +21,9 @@ from writer import Writer
 
 
 
-DIRECTORY_CSV = ".\\025 - USA Map Game\\PJ_USA_game\\50_states.csv"
-DIRECTORY_OUTPUT_CSV = ".\\025 - USA Map Game\\PJ_USA_game\\states_to_learn.csv"
-DIRECTORY_IMAGE = ".\\025 - USA Map Game\\PJ_USA_game\\blank_states_img.gif"
+DIRECTORY_CSV = ".\\025 - CSV and Pandas\\PJ_USA_game\\50_states.csv"
+DIRECTORY_OUTPUT_CSV = ".\\025 - CSV and Pandas\\PJ_USA_game\\states_to_learn.csv"
+DIRECTORY_IMAGE = ".\\025 - CSV and Pandas\\PJ_USA_game\\blank_states_img.gif"
 TOTAL_STATES = 50
 correct_guesses = []
 answer_state = ""
