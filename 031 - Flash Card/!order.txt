@@ -1,0 +1,14 @@
+# 31/05/2024
+# Day - 031
+
+*** Order ***
+0. main.py
+
+
+Frequency dictionary:
+A dictionary that is ordered by how frequent the entries are.
+https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/French_wordlist_opensubtitles_5000
+
+
+Documentation: 
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_dict.html
