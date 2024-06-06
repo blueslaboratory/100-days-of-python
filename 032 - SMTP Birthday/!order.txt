@@ -1,0 +1,28 @@
+# 05/06/2024
+# Day - 032
+
+Test addresses:
+titiritest@gmail.com
+titiritest@yahoo.com
+pw: pipiripython
+
+Google SMTP App Passwords:
+day 032 - SMTP: pknf dczx zfpd qleg 
+
+Yahoo SMTP App Passwords:
+day 032 - SMTP: "esta f() no esta disponible"
+
+Documentation: 
+https://docs.python.org/3/library/smtplib.html
+
+
+*** Order ***
+0. debugging.txt
+1. SMTP_gmail.py
+2. SMTP_yahoo.py
+3. datetime_custom.py
+4. quotes.py
+5. PJ_birthday/PJ_birthday.py
+5. PJ_birthday/PJ_birthday_sol.py
+5. PJ_birthday/PJ_birthday_sol_mod.py
+6. Run in the cloud: https://www.pythonanywhere.com/ (295)
