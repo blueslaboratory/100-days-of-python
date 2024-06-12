@@ -1,0 +1,59 @@
+# 06/06/2024
+# Day - 033
+
+# Terminal:
+# > pip install requests
+
+API: Application Programming Interface:
+Is a set of commands, functions, protocols and objects
+that programmers can use to create software or interact
+with an external system.
+
+Essentially the API is an interface:
+Your Program  --> API      --> External System
+              --> Request  -->
+              <-- Response <--
+
+The API is like a MENU of a restaurant, it tells you
+what's on there so you can make a request to the kitchen
+
+More info: https://en.wikipedia.org/wiki/API
+
+
+
+API endpoint (URL): 
+You can imagine the endpoint as the location of the data
+
+API request:
+Is like going to the bank and asking the bank teller how much 
+money is on the account or a very simple question like:
+What are your opening hours?
+
+
+
+ISS API example:
+http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+http://api.open-notify.org/iss-now.json
+
+
+
+Response codes:
+
+What are the response codes we can get from an API?
+
+404 - The thing you are looking for doesn't exist.
+
+1XX - Hold on, something's happening. This is not final.
+2XX - Here you go, everything was successful.
+3XX - You don't have permission to get this thing, go away.
+4XX - You screwed up.
+5XX - I screwed up. (Server is down, website is down, etc)
+
+All possible status codes:
+https://www.webfx.com/web-development/glossary/http-status-codes/
+
+
+
+API's can receive parameters and will give you different output
+based on those parameters
+https://sunrise-sunset.org/api
