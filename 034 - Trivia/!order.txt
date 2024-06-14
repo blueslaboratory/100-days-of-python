@@ -1,0 +1,9 @@
+# 0X/03/2024
+# Day - 00X
+
+*** Order ***
+0. data.py
+1. quiz_brain.py
+2. main.py
+3. ui.py
+4. datatypes.py
