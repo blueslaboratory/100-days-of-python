@@ -1,0 +1,18 @@
+# 18/06/2024
+# Day - 036
+
+Difficulty: Extrahard (SMTP)
+
+APIS:
+NEWS API: https://newsapi.org/
+Stock Price API: https://www.alphavantage.co/
+Stock_API_key = EQFNKTFSIXEB2KTO
+
+*** Order ***
+0. tesla_steps.txt
+1. PJ_Tesla.py
+2. 
+3. 
+
+PJ_Bitcoin.py
+
