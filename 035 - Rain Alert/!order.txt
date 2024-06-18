@@ -8,7 +8,7 @@
 2. SMTP_bring_umbrella.py
 3. Video 318 PythonAnywhere (run it in an online server)
 4. environment_variables.txt
-5. Exploring the APIs: https://apilist.fun/
+5. Exploring APIs: https://apilist.fun/
 
 
 URL: https://openweathermap.org/current
