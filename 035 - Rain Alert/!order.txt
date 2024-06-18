@@ -1,0 +1,26 @@
+# 18/06/2024
+# Day - 035
+
+
+*** Order ***
+0. API_Openweathermap.py
+1. API_bring_umbrella.py
+2. SMTP_bring_umbrella.py
+3. Video 318 PythonAnywhere (run it in an online server)
+4. environment_variables.txt
+5. Exploring the APIs: https://apilist.fun/
+
+
+URL: https://openweathermap.org/current
+user: weathersito
+email: titiritest@gmail.com
+pw: pipiripython
+
+
+twilio:
+pw: .P1P1ripythonono
+(i will be using SMTP: day 032)
+
+
+ONLINE JSON viewer:
+https://jsonviewer.stack.hu/
