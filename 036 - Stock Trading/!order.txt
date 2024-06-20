@@ -11,8 +11,5 @@ Stock_API_key = EQFNKTFSIXEB2KTO
 *** Order ***
 0. tesla_steps.txt
 1. PJ_Tesla.py
-2. 
-3. 
-
-PJ_Bitcoin.py
-
+2. steps_normal.txt
+3. PJ_Bitcoin.py

@@ -1,0 +1,29 @@
+# 20/06/2024
+# Day - 037
+
+*** Order ***
+0. pixela.py
+1. .py
+2. auditorium
+3. PJ.py
+
+
+HTTP Requests:
+
+GET         requests.get()
+POST        requests.post()
+PUT         requests.put()
+DELETE      requests.delete()
+
+
+Your Program        API         External System
+------------------Request--------------------->
+<-----------------Response---------------------
+
+
+https://pixe.la/
+https://docs.pixe.la/entry/post-user
+
+
+USERNAME = "titiritest"
+TOKEN = "pipiripython"
