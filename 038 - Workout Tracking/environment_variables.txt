@@ -1,0 +1,21 @@
+# 18/06/2024
+# Day - 035
+
+*** ENVIRONMENT VARIABLES ***
+
+Hiding sensitive data
+
+Git Bash console:
+
+AzureAD+BLUESLABORATORY@PCMAADR MINGW64 ~/Desktop/Cursos y materiales/100 days of python (master)
+$ export OWM_API_KEY=792672e5944ad05554ae1fa26aefb1d7
+
+AzureAD+BLUESLABORATORY@PCMAADR MINGW64 ~/Desktop/Cursos y materiales/100 days of python (master)
+$ env
+
+One of the outputs will be:
+OWM_API_KEY=792672e5944ad05554ae1fa26aefb1d7
+
+import os
+
+api_key = os.environ.get("OWM_API_KEY")

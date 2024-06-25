@@ -3,9 +3,6 @@
 
 *** Order ***
 0. pixela.py
-1. .py
-2. auditorium
-3. PJ.py
 
 
 HTTP Requests:

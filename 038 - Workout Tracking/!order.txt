@@ -1,0 +1,169 @@
+# 25/06/2024
+# Day - 038
+
+*** Order ***
+0. PJ_workout_tracking.py
+1. 035 - Rain Alert/environment_variables.txt (here lies a copy)
+
+
+
+email: titiritest@gmail.com
+pw: pipiripython
+
+
+
+#####################################################
+Step 1 - Setup API Credentials and Google Spreadsheet
+#####################################################
+
+1. Go to:
+https://docs.google.com/spreadsheets/d/1DHL6Y8XAHSC_KhJsa9QMekwP8b4YheWZY_sxlH3i494/edit?usp=sharing
+And create a copy of the My Workouts Spreadsheet. You may need to login/register.
+
+2. Go to the Nutritionix API website: 
+https://www.nutritionix.com/business/api
+and select "Get Your API Key" to sign up for a free account. 
+Double check your spam folder (and/or your gmail "promotions" tab) 
+for the Nutritionix verification email.
+
+3. Once logged in, you should be able to access your API key and App id:
+App ID: 
+10d33fb2
+Application Keys: 
+548e21b466f0cfc9dd6d66ce34948cb1
+
+4. Create a new project in PyCharm and in the main.py create 2 constants to 
+store the APP_ID and API_KEY that you got from Nutritionix.
+
+
+
+#########################################################
+Step 2 - Get Exercise Stats with Natural Language Queries
+#########################################################
+
+1. Using the Nutritionix API Guide, figure out how to print the exercise 
+stats for plain text input.
+https://docx.syndigo.com/developers/docs/nutritionix-api-guide
+
+You can hard code the API key and the App Id for now. In step 6, 
+we'll store the API key and app id as environment variables.
+
+HINT 1: Use what you have learnt about Authentication headers and 
+Understand Request Headers to authenticate your request.
+https://docx.syndigo.com/developers/docs/understand-request-headers
+
+HINT 2: Use what you have learnt about making POST requests, Natural 
+Language for Exercise  and Exercise Parameters to make your request 
+with the required parameters.
+https://docx.syndigo.com/developers/docs/natural-language-for-exercise
+https://trackapi.nutritionix.com/docs/#/default/post_v2_natural_exercise
+
+
+
+############################################
+Step 3 - Setup Your Google Sheet with Sheety
+############################################
+
+1. Log into Sheety with your Google Account (the same account that owns 
+the Google Sheet you copied in step 1).
+https://sheety.co/
+
+Make sure you give Sheety permission to access your Google sheets. If you 
+miss this step, log out of Sheety and log in again.
+
+Make sure the email matches between your Google Sheet and Sheety Account. 
+
+Under your Google Account Security settings, you should see that Sheety 
+has access. Double-check that you see Sheety listed as an authorized app. 
+Otherwise, your Python code can't access your spreadsheet.
+
+
+
+#######################################
+Step 4 - Saving Data into Google Sheets
+#######################################
+
+1. Using the Sheety Documentation, write some code to use the 
+Sheety API to generate a new row of data in your Google Sheet for 
+each of the exercises that you get back from the Nutritionix API. 
+The date and time columns should contain the current date and time 
+from the Python datetime module.
+https://sheety.co/docs/requests
+
+HINT 1: Parameters have to be camelCase. Also, pay special attention to 
+this part in the documentation:
+"Sheety expects your record to be nested in a root property. For example If
+your endpoint is named emails, nest your record in a property called email."
+
+HINT 2: Remember you can generate text in title case by using the Python .title() method.
+https://www.w3schools.com/python/ref_string_title.asp
+
+HINT 3: Remember you can format a datetime object using the .strftime() method.
+https://www.w3schools.com/python/python_datetime.asp
+
+Debugging 🐞 Tip: If you're having any issues, double-check that you are logged 
+in to Sheety with the same Google account that owns the spreadsheet you're trying 
+to modify.
+
+
+
+#####################################
+Step 5 - Authenticate Your Sheety API
+#####################################
+
+At the moment there is no authentication that's required to access your Sheety 
+endpoint. That means anyone could read and write to your "My Workout" Google Sheet.
+
+1. Add either "Basic Authentication" or "Bearer Token" to your Sheety endpoint 
+to secure it. You can hardcode the token in your code for now while you test your 
+code. Once you're sure it works, we can add it to the environment variables in 
+the next step.
+
+What is Bearer authentication?
+
+Bearer authentication (also known as token authentication) is an HTTP authentication 
+scheme that involves security tokens. The name “Bearer authentication” basically 
+means “give access to the bearer of this token.” The security token or “bearer token” 
+is just a cryptic string. An example of a bearer token would be a string that could 
+look something like this:
+
+"AAAAAAAAAAAAAAAAAAAAAMLheAAAAAAA0%2BuSeid%2BULvsea4JtiGRiSDSJSI%3DEUifiRBkKG5E2XzMDjRfl76ZC9Ub0wnz4XsNiRVBChTYbJcE3F"
+
+The idea is that whoever has the secret token, has permission to interact with 
+the spreadsheet. A client - like your browser or mobile app - would then send this 
+security token in the Authorization header when making requests to Sheety's server.
+
+2. Using the Sheety documentation on authentication to update your Python code to 
+authenticate your request.
+https://sheety.co/docs/authentication.html
+
+HINT: You'll need to read the relevant section on the request module documentation 
+to do this.
+
+Requests - HTTP Basic Authentication
+https://requests.readthedocs.io/en/latest/user/authentication/#basic-authentication
+
+Bearer Authentication: 
+https://stackoverflow.com/questions/29931671/making-an-api-call-in-python-with-an-api-that-requires-a-bearer-token
+
+
+
+#########################################
+Step 6 - Environment Variables in Repl.it
+#########################################
+
+It's time to remove the hard-coded API keys, passwords, and endpoints from 
+our .py file and move them into environment variables. The process will be 
+slightly different depending on what your environment is.
+
+1. Using what you know about Environment Variables (see Day 35), update your 
+code to use environment variables for all sensitive data including:
+
+APP_ID
+API_KEY
+SHEET_ENDPOINT
+USERNAME
+PASSWORD
+TOKEN
+
+See environment_variables.txt
