@@ -1,0 +1,46 @@
+# 05/06/2024
+# Day - 041
+
+
+
+*** Order ***
+
+0. Folder: Heading Elements
+1. Folder: Paragraph Elemnts
+2. Folder: Void Elements
+3. Folder: Movie Ranking Project
+
+
+
+*** Steps ***
+
+1. Install Visual Studio Code
+https://code.visualstudio.com/
+
+2. Install Visual Studio Code Extensions
+Live Preview
+Prettier
+vscode-icons
+
+3. Install Google Chrome
+
+
+
+*** MORE INFO ***
+
+DNS lookup:
+https://www.nslookup.io/
+
+Submarine cables:
+https://www.submarinecablemap.com/
+
+HTML (HyperText Markup Language): 
+Responsible for the structure of the website.
+Hypertext is text which contains links to other texts.
+Elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+CSS (Cascade Styling Sheets):
+Styling your website: painters and decorators of the house
+
+JS (JavaScript):
+Behavious of the website: the wires, plumbing of the house
