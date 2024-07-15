@@ -1,0 +1,24 @@
+# 15/07/2024
+# Day - 043
+
+
+
+*** Order ***
+0. Folder: 1. Adding CSS
+1. Folder: 2. CSS Selectors
+2. Folder: 3. Color Vocab Project
+
+
+
+CSS: Cascading Style Sheet 
+
+Adding CSS:
+1. Inline: 
+    useful for 1 element
+    <tag style="css" />
+2. Internal: 
+    useful for 1 webpage
+    <style>css</style>
+3. External: 
+    useful for multiple webpages
+    <link href="style.css"/>

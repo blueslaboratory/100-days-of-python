@@ -1,0 +1,31 @@
+/* 15/07/2024 */
+
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p {
+  color: red
+}
+
+/* class selector */
+.note {
+  font-size: 20px;
+}
+
+/* id */
+#id-selector-demo {
+  color: green;
+}
+
+/* value attribute */
+li[value="4"]{
+  color: blue;
+}
+
+*{
+  text-align: center;
+}
