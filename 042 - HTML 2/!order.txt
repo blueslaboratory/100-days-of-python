@@ -1,0 +1,26 @@
+# 09/07/2024
+# Day - 042
+
+
+
+*** Order ***
+
+0. boilerplate.html
+1. burger.html
+2. Folder: 1. List Elements
+3. Folder: 2. Nesting and Indentation
+4. Folder: 3. Anchor Elements
+5. Folder: 4. Birthday Invite Project
+
+
+
+The Anchor Element:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+<tag attribute=value anotherattribute=value>
+    Content
+</tag>
+
+
+
+OL Element:
+https://developer.mozilla.org/es/docs/Web/HTML/Element/ol
