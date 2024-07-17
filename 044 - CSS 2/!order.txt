@@ -1,0 +1,56 @@
+# 16/07/2024
+# Day - 044
+
+
+*** Order ***
+0. Folder: 1. CSS Colors
+1. Folder: 2. Font Properties
+2. Folder: 3. CSS Box Model
+3. Folder: 4. Motivational Meme Project
+
+
+
+Named Colors:
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+
+
+
+RGB Color Mixex:
+https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/
+
+
+
+Font Properties:
+h1 {
+    color: blue
+    font-weight: bold
+    font-size: 20px
+    font-family: sans-serif
+}
+
+1px =~ 0.26mm*0.26mm
+1pt =~ 0.35mm*0.35mm
+
+1em =  100% of parent (relative size)
+<body> --> 20px
+    <h1>Hello</h1> --> 1em = 20px
+    <p>What's up?</p> --> 2em = 2*20px
+</body>
+
+1rem = 100% of root (relative size)
+<html> --> root element: 20px
+    <head>
+    </head>
+    <body>
+        <h1></h1>
+        <footer> --> 6px
+            <h2>hello</h2> --> 2rem: 2*20px
+        </footer>
+    </body>
+</html>
+
+
+
+https://appbrewery.github.io/just-add-css/
+https://appbrewery.github.io/css-inspection/
+https://appbrewery.github.io/box-model/
