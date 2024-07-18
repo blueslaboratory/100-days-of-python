@@ -1,0 +1,29 @@
+# 18/07/2024
+# Day - 045
+
+*** Order ***
+0. Folder: 1. Parsing HTML
+1. Folder: 2. Scraping a Website
+2. Folder: 3. PJ Best 100 Movies
+
+
+
+Empire's 100 Best Movies Of All Time
+https://www.empireonline.com/movies/features/best-movies-2/
+
+Empire's 100 Best TV Shows Of All Time
+https://www.empireonline.com/tv/features/best-tv-shows/
+
+BeautifulSoup Docs:
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+News Ycombinator:
+https://news.ycombinator.com/
+
+
+
+IMPORTANT:
+- You can't commercialise copyrighted content
+- You can't scrape data behind authentication
+
+https://www.okcupid.com/robots.txt
