@@ -1,0 +1,19 @@
+# 19/07/2024
+# Day - 046
+
+*** Order ***
+0. steps.txt
+1. main.py
+2. spotify_test.py
+3. main_sol.py
+4. 
+
+
+
+Email: titiritest@gmail.com
+Client ID: 870c4fd08e78453ebaa4b5fe0637923f
+Client Secret: e3a4d99892954901bc1def95c4683697
+
+https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+
+
