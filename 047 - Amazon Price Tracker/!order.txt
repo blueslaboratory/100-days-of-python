@@ -1,0 +1,8 @@
+# 23/07/2024
+# Day - 047
+
+
+*** Order ***
+0. steps.txt
+1. bot.py
+2. bot_sol.py

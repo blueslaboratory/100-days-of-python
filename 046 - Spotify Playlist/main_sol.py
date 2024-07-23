@@ -4,7 +4,7 @@
 
 
 ##################################################
-# DAY 46 PROJECT: SPOTIFY PLAYLIST
+# DAY 46 PROJECT: SPOTIFY PLAYLIST SOLUTION
 
 print("\n*** Welcome to the Spotify Time Machine! ***")
 
