@@ -25,6 +25,7 @@ from email.mime.text import MIMEText
 practice_URL = "https://appbrewery.github.io/instant_pot/"
 live_URL = "https://www.amazon.com/Funko-Articulated-Rick-Morty-Mr-Poopy/dp/B01MY7YTNR"
 
+# https://httpbin.org/headers
 all_headers = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -93,6 +94,7 @@ def send_email():
         )
         
         print("Email sent successfully!")
+
 
 
 NOTIFICATION_PRICE = 100
