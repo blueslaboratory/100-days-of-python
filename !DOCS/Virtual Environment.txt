@@ -1,0 +1,5 @@
+*** CREATING AND USING A PYTHON VIRTUAL ENVIRONMENT ***
+
+> python -m venv myenv
+> myenv\Scripts\activate
+> pip install ________

@@ -1,0 +1,15 @@
+# 24/07/2024
+# Day - 048
+
+*** Order ***
+0. selenium_test_1.py
+1. selenium_test_2.py
+2. wikipedia.py
+3. sign_up.py
+
+
+
+LINKS:
+https://www.selenium.dev/documentation/webdriver/elements/locators/
+https://www.w3schools.com/xml/xpath_intro.asp
+https://selenium-python.readthedocs.io/
