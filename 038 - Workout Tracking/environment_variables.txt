@@ -19,3 +19,16 @@ OWM_API_KEY=792672e5944ad05554ae1fa26aefb1d7
 import os
 
 api_key = os.environ.get("OWM_API_KEY")
+
+
+
+POWERSHELL 
+PS C:\Users\AlejandroDiezRedondo\Desktop\Cursos y materiales\100 days of python> 
+> $env:EMAIL="xxx@gmail.com"
+PS C:\Users\AlejandroDiezRedondo\Desktop\Cursos y materiales\100 days of python> 
+> $env:PW="1234"
+
+import os
+
+email = os.environ.get("EMAIL")
+pw = os.environ.get("PW")

@@ -24,7 +24,7 @@ driver.get(url)
 
 
 
-print("\nFind Element By LINK_TEXT:")
+print("\nFind Element By NAME:")
 
 input_fname = driver.find_element(By.NAME, value="fName")
 input_fname.send_keys("Blue's")
@@ -35,7 +35,9 @@ input_lname.send_keys("Laboratory")
 input_email = driver.find_element(By.NAME, value="email")
 input_email.send_keys("blueslaboratory@lab.com")
 
-print("\nFind Element By LINK_TEXT:")
+
+
+print("\nFind Element By CSS_SELECTOR:")
 sign_up = driver.find_element(By.CSS_SELECTOR, value=".btn")
 sign_up.click()
 

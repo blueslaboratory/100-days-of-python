@@ -1,0 +1,8 @@
+# 31/07/2024
+# Day - 049
+
+*** Order ***
+0. steps.txt
+1. environment_variables.txt
+2. PJ_linkedin_bot.py
+3. PJ_linkedin_bot_sol.py
