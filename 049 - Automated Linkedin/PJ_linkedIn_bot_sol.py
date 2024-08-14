@@ -27,7 +27,7 @@ print(ACCOUNT_EMAIL, ACCOUNT_PASSWORD, PHONE)
 
 
 
-url = "https://www.linkedin.com/jobs/search?keywords=Python%20Developer&location=Espa%C3%B1a&geoId=105646813&f_JT=F&f_TPR=&f_WT=2&f_E=2%2C4&position=1&pageNum=0"
+URL = "https://www.linkedin.com/jobs/search?keywords=Python%20Developer&location=Espa%C3%B1a&geoId=105646813&f_JT=F&f_TPR=&f_WT=2&f_E=2%2C4&position=1&pageNum=0"
 
 # Keep Chrome browser open after program finishes
 chrome_options = webdriver.ChromeOptions()
@@ -35,7 +35,7 @@ chrome_options.add_argument("--start-maximized")
 chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=chrome_options)
-driver.get(url)
+driver.get(URL)
 
 
 # Click Sign in Button
@@ -77,4 +77,4 @@ if phone.text == "":
 # submit_button = driver.find_element(by=By.CSS_SELECTOR, value="footer button")
 # submit_button.click()
 
-# TBC
+# TBC: To Be Continued...

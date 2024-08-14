@@ -73,6 +73,8 @@ input("Press Enter when you have solved the Captcha")
 
 
 
+# Solicitud sencilla: 
+
 # Locate the save button
 # try:
 #     # Esperar hasta que el botón sea visible
@@ -83,9 +85,7 @@ input("Press Enter when you have solved the Captcha")
 # except Exception as e:
 #     print(f"Error: {e}")
 
-
-
-# Solicitud sencilla: Locate the apply button: 
+# Locate the apply button: 
 # try:
 #     # Esperar hasta que el botón sea visible
 #     button_apply = WebDriverWait(driver, 10).until(

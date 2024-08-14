@@ -6,6 +6,7 @@
 ####################################
 Step 1 - Setup Your LinkedIn Account
 ####################################
+
 Project Objective
 The goal of today's project is to learn to use Selenium to automate 
 applying for jobs. Thus, by the end of today, you should have a program 
@@ -51,6 +52,7 @@ Job application settings
 ############################
 Step 2 - Automatically Login
 ############################
+
 1. Go to the Jobs tab and search for the job that you are interested in 
 e.g. "Python developer". Add the "Easy Apply" filter and specify your 
 desired location. e.g.
@@ -72,6 +74,7 @@ HINT: You might want to use sleep() to wait for page loads.
 ########################
 Step 3 - Apply for a Job
 ########################
+
 1. Use Selenium to automatically apply to the first job that only requires you to 
 enter your phone number. e.g.
 

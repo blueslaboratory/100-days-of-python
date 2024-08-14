@@ -1,0 +1,25 @@
+# 08/08/2024
+# Day - 050
+
+*** Order ***
+0. steps.txt
+
+
+
+
+NOTE:
+
+I'll just go with my own account since it's not possible to 
+have multiple Tinder account's with 1 telephone number
+
+
+
+
+Facebook Account (ABANDONED):
+
+name: Lorenzo
+surname: Von Matternhorn
+email: titiritest@gmail.com
+pw: pipiripython
+bd: 7/7/1999
+gender: male
