@@ -1,0 +1,10 @@
+19/09/2024
+
+Migracion del proyecto a Linux Mint, utilizare un .venv: 
+
+
+ACTIVAR el .venv:
+alejandro@GE70-2OE:~/Desktop/100 days of python$ source .venv/bin/activate
+
+DESACTIVAR el .venv:
+(.venv) alejandro@GE70-2OE:~/Desktop/100 days of python$ deactivate
