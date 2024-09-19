@@ -15,8 +15,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
-
 import time
 import os
 
@@ -107,6 +105,7 @@ class InternetSpeedXBot:
             tweet = f"Hey Internet Provider, why is my internet speed {self.down}Mbps down/{self.up}Mbps up when I pay for {PROMISED_DOWN}Mbps down/{PROMISED_UP}Mbps up?"
             
 
+
             '''
             # Hacerlo con un sleep:
             tweet_compose = self.driver.find_element(By.XPATH, '//div[@data-testid="tweetTextarea_0"]')
@@ -122,13 +121,12 @@ class InternetSpeedXBot:
             )            
             print("Element located, clicking now...")
 
-
-
             # Click on the tweet text area to focus
             tweet_compose.click()
             tweet_compose.send_keys(tweet)
 
             
+
             '''
             # Hacerlo con un sleep:
             tweet_button = self.driver.find_element(By.XPATH, value='??')
@@ -142,9 +140,7 @@ class InternetSpeedXBot:
             )
             print("Tweet button located, attempting to click...")
 
-
-
-            # Click on the button
+            # Click on the button to focus
             tweet_button.click()
             
             
@@ -156,11 +152,14 @@ class InternetSpeedXBot:
 bot = InternetSpeedXBot()
 
 
+
+print("\nGet Internet Speed:")
 bot.get_internet_speed()
 
-print()
 print(f"Download Speed: {bot.down}Mbps")
 print(f"Upload Speed: {bot.up}Mbps")
 
 
+
+print("\nTweet at provider:")
 bot.tweet_at_provider()
