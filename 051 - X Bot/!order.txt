@@ -1,0 +1,10 @@
+# 04/10/2024
+# Day - 051
+
+*** Order ***
+0. steps.txt
+1. environment_variables.txt
+2. x_bot_sol.py
+
+
+P.D. Check out debugging.py from: 050 - Tinder Swiping

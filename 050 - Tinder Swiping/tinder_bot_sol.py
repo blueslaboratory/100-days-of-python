@@ -1,10 +1,10 @@
 # 13/08/2024
 # Day - 050
 
-# NOTE: NEVER TESTED IT (PROBS DOESN'T WORK)
+# NOTE: NEVER TESTED IT (PROBS DOESN'T WORK, GO TO MY SOLUTION)
 
 ##################################################
-# DAY 50 PROJECT: TINDER BOT
+# DAY 50 PROJECT: TINDER BOT SOLUTION
 
 print("\n*** Welcome to the Tinder Bot! SOLUTION ***")
 

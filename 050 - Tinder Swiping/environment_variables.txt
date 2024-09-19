@@ -25,7 +25,8 @@ api_key = os.environ.get("OWM_API_KEY")
 
 
 
-POWERSHELL 
+POWERSHELL:
+
 PS C:\Users\AlejandroDiezRedondo\Desktop\Cursos y materiales\100 days of python> 
 > $env:EMAIL="xxx@gmail.com"
 PS C:\Users\AlejandroDiezRedondo\Desktop\Cursos y materiales\100 days of python> 
